@@ -22,8 +22,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Sayush Kamat`,
+        short_name: `Sayush Kamat`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
