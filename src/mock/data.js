@@ -2,93 +2,83 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Sayush Kamat', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Sayush Kamat is a freelance web developer based in Mumbai,India', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hello,I\'m',
+  name: 'Sayush Kamat',
+  subtitle: 'I am a freelance Web Developer',
+  cta: 'Know More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Clean UI is the most important thing to keep in Mind when designing and developing Solutions for Businesses along with a secure business Logic.',
+  paragraphTwo: 'I do not just code . I paint the screen using  various web development languages as my paintbrushes.I am a Bachelor of Technology undergraduate of Veermata Jijabai Technological Institute,Mumbai studying in Third Year of the Four Year Information Technology Programme.I am an active member of the Web Team of Google DSC ,VJTI',
+  paragraphThree: 'I have helped various businesses,organizations and NGOs in setting up their online presence.So ,what are you waiting for.'
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project1.png',
+    title: 'Gift Junction Website',
+    info: 'This is a website made for a local gift shop using html5,css3,Bootstrap 4  javascript and JQuery ',
+    info2: 'Animate on Scroll Library is used for smooth 60fps scroll animations',
+    url: 'https://giftjunction.netlify.app',
+    repo: 'https://github.com/thedarkdivinity/giftjunction.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project2.png',
+    title: 'DSC VJTI Website',
+    info: 'As a member of the Web Team of Developer Student Club VJTI,developed this website in a team of 5 members.My major contribution was in hosting the Website,setting up the domain,setting up the netlify form submission and the page animations.',
+    info2: 'Technologies used are Bootstrap 4,CSS3,HTML5 and Javascript .Animate On Scroll Library was used for Page Animations',
+    url: 'https://www.dscvjti.tech',
+    repo: 'https://github.com/thedarkdivinity/dsc-vjti.github.io.git', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project3.png',
+    title: 'FLY HIGH NGO',
+    info: 'A React Landing Page for an upcoming NGO .I volunteered to develop a website for this NGO ',
+  
+    url: 'https://flyhighngo.netlify.app/',
+    repo: 'https://github.com/thedarkdivinity/ngoflyhigh.git', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Let\'s Talk!',
+  btn: 'Reach Out To Me',
+ 
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/sayushkamat',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://www.github.com/thedarkdivinity',
     },
   ],
 };
 
-// Github start/fork buttons
+
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, 
 };
